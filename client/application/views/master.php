@@ -21,6 +21,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/select2/select2-bootstrap.css"/>
 <!-- Select2 -->
 <script type="text/javascript" src="<?php echo base_url() ?>assets/select2/js/select2.min.js"></script>
+
+
+<!-- Moment.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+<!-- datetimepicker -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+
 <script type="text/javascript">
 	//$.fn.select2.defaults.set( "theme", "bootstrap" );
 	$( ".select2" ).select2({

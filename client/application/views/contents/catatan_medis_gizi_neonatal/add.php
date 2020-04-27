@@ -17,21 +17,73 @@
 
                 <div class="row">
                     <!-- nama -->
-                  <div class="col-md-3">
+                  <div class="col-md-4">
                     <b>Test</b>
                   </div>
-                  <div class="col-md-9">
+                  <div class="col-md-8">
                     <input type="text" class="form-control input-sm" name="test" id="test" value="" >
+                  </div>
+                </div>
+                <br>
+
+                <div class="row">
+                  <!-- nama -->
+                  <div class="col-md-4">
+                    <b>Input dengan addon</b>
+                  </div>
+                  <div class="col-md-8">
+                    <div class='input-group'>
+                      <input type="text" class="form-control" name="input-addon" id="input-addon" value="" required autocomplete="off">
+                      <span class="input-group-addon">
+                        <span class="">Addon</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <br>
+
+                <div class="row">
+                  <!-- nama -->
+                  <div class="col-md-4">
+                    <b>Button toggle</b>
+                  </div>
+                  <div class="col-md-8">
+                    <input type="hidden" name="btn-toggle-val">
+                    <button class="btn btn-default btn-toggle" data-id="0">No</button>
+                    <button class="btn btn-default btn-toggle" data-id="1">Yes</button>
+                  </div>
+                </div>
+                <br>
+
+
+                <div class="row">
+                  <!-- nama -->
+                  <div class="col-md-4">
+                    <b>Tanggal</b>
+                  </div>
+                  <div class="col-md-8">
+                    <input type="text" name="tanggal" id="tanggal" class="form-control" value="<?= date('Y-m-d') ?>" required autocomplete="off">
+                  </div>
+                </div>
+                <br>
+
+                <div class="row">
+                  <!-- nama -->
+                  <div class="col-md-4">
+                    <b>Tanggal</b>
+                  </div>
+                  <div class="col-md-8">
+                    <input type="text" name="jam" id="jam" class="form-control" value="07:00" required autocomplete="off">
                   </div>
                 </div>
                 <br>
  
                 <div class="row">
                     <!-- nama -->
-                  <div class="col-md-3">
+                  <div class="col-md-4">
                     <b>Petugas Approve</b>
                   </div>
-                  <div class="col-md-9">
+                  <div class="col-md-8">
                     <select name="petugas_approved" class="petugas_approved" style="width: 100%" required>
                       <option value=""></option>
                       <?php foreach ($data_perawat as $k => $v) : ?>
@@ -44,10 +96,10 @@
 
                 <div class="row">
                     <!-- nama -->
-                  <div class="col-md-3">
+                  <div class="col-md-4">
                     <b>Dokter Approve</b>
                   </div>
-                  <div class="col-md-9">
+                  <div class="col-md-8">
                     <select name="dokter_approved" class="dokter_approved" style="width: 100%" required>
                       <option value=""></option>
                       <?php foreach ($data_dokter as $k => $v) : ?>
@@ -84,10 +136,10 @@
 
               <div class="row">
                   <!-- nama -->
-                <div class="col-md-3">
+                <div class="col-md-4">
                   <b>Test</b>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-8">
                   <input type="text" class="form-control input-sm" name="test" id="test" value="">
                 </div>
               </div>
@@ -95,10 +147,10 @@
 
               <div class="row">
                     <!-- nama -->
-                  <div class="col-md-3">
+                  <div class="col-md-4">
                     <b>Petugas Approve</b>
                   </div>
-                  <div class="col-md-9">
+                  <div class="col-md-8">
                     <select name="petugas_approved" class="petugas_approved" style="width: 100%" required>
                       <option value=""></option>
                       <?php foreach ($data_perawat as $k => $v) : ?>
@@ -123,10 +175,10 @@
 
               <div class="row">
                   <!-- nama -->
-                <div class="col-md-3">
+                <div class="col-md-4">
                   <b>Test</b>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-8">
                   <input type="text" class="form-control input-sm" name="test" id="test" value="">
                 </div>
               </div>
@@ -134,10 +186,10 @@
 
               <div class="row">
                     <!-- nama -->
-                  <div class="col-md-3">
+                  <div class="col-md-4">
                     <b>Dokter Approve</b>
                   </div>
-                  <div class="col-md-9">
+                  <div class="col-md-8">
                     <select name="dokter_approved" class="dokter_approved" style="width: 100%" required>
                       <option value=""></option>
                       <?php foreach ($data_dokter as $k => $v) : ?>
@@ -173,10 +225,10 @@
               <div class="col-md-6">  
                 <div class="row">
                     <!-- nama -->
-                  <div class="col-md-3">
+                  <div class="col-md-4">
                     <b>Test</b>
                   </div>
-                  <div class="col-md-9">
+                  <div class="col-md-8">
                     <input type="text" class="form-control input-sm" name="test" id="test" value="">
                   </div>
                 </div>
@@ -185,10 +237,10 @@
               <div class="col-md-6">  
                 <div class="row">
                     <!-- nama -->
-                  <div class="col-md-3">
+                  <div class="col-md-4">
                     <b>Test</b>
                   </div>
-                  <div class="col-md-9">
+                  <div class="col-md-8">
                     <input type="text" class="form-control input-sm" name="test" id="test" value="">
                   </div>
                 </div>
@@ -200,10 +252,10 @@
 
               <div class="row">
                     <!-- nama -->
-                  <div class="col-md-3">
+                  <div class="col-md-4">
                     <b>Petugas Approve</b>
                   </div>
-                  <div class="col-md-9">
+                  <div class="col-md-8">
                     <select name="petugas_approved" class="petugas_approved" style="width: 100%" required>
                       <option value=""></option>
                       <?php foreach ($data_perawat as $k => $v) : ?>
@@ -216,10 +268,10 @@
 
                 <div class="row">
                     <!-- nama -->
-                  <div class="col-md-3">
+                  <div class="col-md-4">
                     <b>Dokter Approve</b>
                   </div>
-                  <div class="col-md-9">
+                  <div class="col-md-8">
                     <select name="dokter_approved" class="dokter_approved" style="width: 100%" required>
                       <option value=""></option>
                       <?php foreach ($data_dokter as $k => $v) : ?>
@@ -257,6 +309,76 @@
 
   $('.petugas_approved').select2({
     placeholder: "-- Pilih petugas Approve --"
+  });
+
+  $('#jam').datetimepicker({
+    format:"HH:mm",
+    showTodayButton:true,
+    timeZone:'',
+    dayViewHeaderFormat: 'MMMM YYYY',
+    stepping: 5,
+    locale:moment.locale(),
+    collapse:true,
+    icons: {
+          time:'fa fa-clock-o',
+          date:'fa fa-calendar',
+          up:'fa fa-chevron-up',
+          down:'fa fa-chevron-down',
+          previous:'fa fa-chevron-left',
+          next:'fa fa-chevron-right',
+          today:'fa fa-crosshairs',
+          clear:'fa fa-trash-o',
+          close:'fa fa-times'
+    },
+    sideBySide:true,
+    calendarWeeks:false,
+    viewMode:'days',
+    viewDate:false,
+    toolbarPlacement:'bottom',
+    widgetPositioning:{
+        horizontal: 'left',
+        vertical: 'bottom'
+    }
+  });
+
+  $('#tanggal').datetimepicker({
+    format:"YYYY-MM-DD",
+    showTodayButton:true,
+    timeZone:'',
+    dayViewHeaderFormat: 'MMMM YYYY',
+    stepping: 5,
+    locale:moment.locale(),
+    collapse:true,
+    icons: {
+          time:'fa fa-clock-o',
+          date:'fa fa-calendar',
+          up:'fa fa-chevron-up',
+          down:'fa fa-chevron-down',
+          previous:'fa fa-chevron-left',
+          next:'fa fa-chevron-right',
+          today:'fa fa-crosshairs',
+          clear:'fa fa-trash-o',
+          close:'fa fa-times'
+    },
+    sideBySide:true,
+    calendarWeeks:false,
+    viewMode:'days',
+    viewDate:false,
+    toolbarPlacement:'bottom',
+    widgetPositioning:{
+        horizontal: 'left',
+        vertical: 'bottom'
+    }
+  });
+
+  $(".btn-toggle").click(function (e) { 
+    e.preventDefault();
+    
+    $(".btn-toggle").removeClass("btn-primary");
+    $(this).addClass("btn-primary");
+    var id = $(this).data('id');
+
+    $("input[name='btn-toggle-val']").val(id);
   });
 
   $('.btn-batal').click(function (e)
